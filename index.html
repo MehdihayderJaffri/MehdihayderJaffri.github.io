@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./style.css" rel="stylesheet"/>
+    <link href="./custom.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <script src="./style.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bolder" style="font-size:xx-large" href="./index.html">
+      <img src="./images/logo.png" alt="" width="60" height="40">
+      Bio<i class="text-success">Pharma</i>
+    </a>
+    
+    <form class="d-flex">
+      <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+      <button class="btn btn-success text-white ms-3 btn-outline-success" type="submit"><i class="fa fa-cart-plus" aria-hidden="true"></i></button>
+    </form>
+  </div>
+</nav>
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link fw-bold text-black" aria-current="page" href="./about.html">About Us</a>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link text-black dropdown-toggle fw-bold" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Derma </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item border-bottom" href="./derma/acne.html">Acne</a></li>
+      <li><a class="dropdown-item" href="./derma/hair-growth.html">Hair Growth</a></li>
+    </ul>
+  </li>
+   <li class="nav-item dropdown">
+    <a class="nav-link text-black dropdown-toggle fw-bold" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Gastro-Intestinal Tract</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item border-bottom" href="./gastro/acidity-ulcer.html">Acidity &amp; Ulcers</a></li>
+      <li><a class="dropdown-item border-bottom" href="./gastro/obesity.html">Obesity</a></li>
+      <li><a class="dropdown-item" href="./gastro/heartburn.html">Heartburn Indigestion</a></li>
+    </ul>
+  </li>
+   <li class="nav-item dropdown">
+    <a class="nav-link text-black dropdown-toggle fw-bold" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Oral Care</a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item border-bottom" href="./oral/tootl-paste.html">Tooth Paste</a></li>
+      <li><a class="dropdown-item border-bottom" href="./oral/tooth-brush.html">Tooth Brush</a></li>
+      <li><a class="dropdown-item" href="./oral/mouth-ulcer.html">Mouth Ulcers</a></li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link text-black dropdown-toggle fw-bold" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Baby Care </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item border-bottom" href="./babycare/diapers-all.html">Baby Diapers (All Sizes)</a></li>
+      <li><a class="dropdown-item border-bottom" href="./babycare/wipes.html">Baby Wipes</a></li>
+      <li><a class="dropdown-item border-bottom" href="./babycare/newborn.html">Newborn Size</a></li>
+      <li><a class="dropdown-item border-bottom" href="./babycare/milk.html">Baby Milk</a></li>
+    </ul>
+  </li>
+  <li class="nav-item dropdown">
+    <a class="nav-link text-black dropdown-toggle fw-bold" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Personal Care </a>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item border-bottom" href="./personalcare/face-wash.html">Face Wash</a></li>
+      <li><a class="dropdown-item border-bottom" href="./personalcare/cream-lotion.html">Cream &amp; Lotions</a></li>
+      <li><a class="dropdown-item border-bottom" href="./personalcare/shampoo.html">Shampoo</a></li>
+      <li><a class="dropdown-item" href="./personalcare/hair-oil.html">Hair Oils</a></li>
+    </ul>
+  </li>
+</ul>
+
+
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="10000">
+      <img src="./images/web20peridots.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h5>First slide label</h5>
+        <p>Some representative placeholder content for the first slide.</p> -->
+      </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="2000">
+      <img src="./images/ovaza20banner.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h5>Second slide label</h5>
+        <p>Some representative placeholder content for the second slide.</p> -->
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./images/getz-pharma-web.webp" class="d-block w-100" alt="...">
+      <div class="carousel-caption d-none d-md-block">
+        <!-- <h5>Third slide label</h5>
+        <p>Some representative placeholder content for the third slide.</p> -->
+      </div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+  <div class="col">
+    <div class="card h-100 ">
+      <img src="./images/acne gel.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/acne skin.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/acnes-creamy-wash.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/benclin gel.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/clinagel.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src="./images/dina acne.webp" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
